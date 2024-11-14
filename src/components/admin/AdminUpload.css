@@ -1,0 +1,52 @@
+
+
+.admin-upload-container {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 30px;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.admin-upload-container h2 {
+  text-align: center;
+  color: #f8f8f8;
+  margin-bottom: 20px;
+}
+
+.formulario-producto label {
+  display: block;
+  margin-top: 15px;
+  color: #ddd;
+}
+
+.formulario-producto input[type="text"],
+.formulario-producto input[type="number"],
+.formulario-producto input[type="file"],
+.formulario-producto select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #555;
+  background-color: #333;
+  color: #ffffff;
+}
+
+.subir-button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #6a0dad;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.subir-button:hover {
+  background-color: #5c0ab8;
+}

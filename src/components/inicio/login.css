@@ -1,0 +1,118 @@
+
+.login-page {
+  display: flex;
+  height: 100vh;
+}
+
+.login-form-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.login-form {
+  width: 80%;
+  max-width: 350px;
+  text-align: center;
+}
+
+.login-form h2 {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #ddd;
+  color: #333;
+  font-size: 1rem;
+}
+
+.login-form input::placeholder {
+  color: #888;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #a100ff;
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.social-login {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  color: #333;
+}
+
+.social-login span {
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.social-login i {
+  font-size: 1.5rem;
+  margin: 0 8px;
+  color: #333;
+  cursor: pointer;
+}
+
+.social-login i:hover {
+  color: #555;
+}
+
+.register-link {
+  margin-top: 20px;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.register-link a {
+  color: #a100ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+.login-image-container {
+  width: 50%;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.login-image-container img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.login-image-container h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.login-image-container span {
+  color: red;
+}

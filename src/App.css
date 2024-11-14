@@ -1,0 +1,41 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 10; 
+  margin: 10; 
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.footerSection {
+  flex: 1;
+  text-align: center;
+}
+
+.footerLogo {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialIcons img {
+  width: 35px;
+  transition: transform 0.3s;
+}
+
+.socialIcons img:hover {
+  transform: scale(1.2);
+}
+
+.footerSection p {
+  color: #aaa;
+}
